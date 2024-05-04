@@ -1,0 +1,12 @@
+{
+	"server": {
+		"token": "1234567",
+		"PORT": 5003
+	},
+	"MySQL": {
+		"user": "root",
+		"host": "localhost",
+		"password": "212867Alex",
+		"database": "chat"
+	}
+}

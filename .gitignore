@@ -1,0 +1,6 @@
+client/node_modules
+client/dist
+server/build
+server/node_modules
+websocket/node_modules
+websocket/build

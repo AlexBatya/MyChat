@@ -1,0 +1,21 @@
+.username{
+	position: relative;
+	top: 10px;
+	left: 10px;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+
+	p{
+		font-weight: 400px;
+	}
+
+	font-size: 32px; 
+	&:before{
+		font-size: 32px;
+	}
+}
+
+

@@ -1,0 +1,8 @@
+{
+	"MySQL": {
+		"user": "root",
+		"host": "localhost",
+		"password": "212867Alex",
+		"database": "chat"
+	}
+}
