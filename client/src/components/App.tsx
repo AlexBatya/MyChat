@@ -1,5 +1,5 @@
-import React from 'react';
-import Login from './login.components'
+import React, {useState, useEffect} from 'react';
+import Autorization from './login.components'
 
 // import Main from './main.components';
 // import Users from './users.component';
@@ -13,15 +13,15 @@ const App: React.FC = () => {
 		padding: 0
 	}
 
-	// const [user, setUser] = useState("");
-	//
-	// useEffect(() => {
-	// 	console.log(user)
-	// }, [user])
+	const [user, setUser] = useState("");
+
+	useEffect(() => {
+		console.log(user)
+	}, [user])
 
   return (
 		<div style = {style} className="app">
-			<Login />	
+			<Autorization setUser = {setUser}/>	
 		</div>
   );
 };

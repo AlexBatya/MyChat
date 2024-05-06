@@ -8,3 +8,29 @@
 ```mysql -u root -p crompol < /path/to/crompol/crompol.sql```
 
 где /path/to/crompol - путь к директории, где находится файл crompol.sql.
+
+## ```config/localhost.json```
+
+```json
+{
+    "server": {
+    "token": "",
+    "PORT": 5003
+    },
+    "MySQL": {
+        "user": "",
+        "host": "",
+        "password": "",
+        "database": ""
+    }, 
+    "mail": {
+        "host": "",
+        "port": 465,
+        "secure": false,
+        "auth": {
+            "user": "",
+            "pass": ""
+        }
+    }
+}
+```

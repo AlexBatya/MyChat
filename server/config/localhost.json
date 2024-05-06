@@ -8,5 +8,14 @@
 		"host": "localhost",
 		"password": "212867Alex",
 		"database": "chat"
+	}, 
+	"mail": {
+		"host": "smtp.mail.ru",
+		"port": 465,
+		"secure": true,
+		"auth": {
+			"user": "alex28.12.12@mail.ru",
+			"pass": "SwrVgMP3mzMW7XDixpcp"
+		}
 	}
 }

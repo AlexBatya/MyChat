@@ -8,7 +8,6 @@ class AddServices {
 			try{
 				const getUser: any = await addModels.getUser(db,data);
 
-				console.log(getUser.send)
 				if(getUser.send.length == 0){
 
 					const addUser: any = await addModels.addUser(db, data); 
